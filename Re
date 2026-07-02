@@ -1,0 +1,66 @@
+# SOC Home Lab - Splunk, Sysmon and Adversary Simulation
+
+## Overview
+
+This project demonstrates the creation of an isolated Security Operations Center (SOC) home lab using VirtualBox to simulate attacker and defender activities within a controlled environment.
+
+The objective of the project was to gain hands-on experience with endpoint telemetry collection, attack simulation, log analysis and incident investigation using technologies commonly found in enterprise environments.
+
+The lab consists of a Windows 10 endpoint configured with Sysmon and Splunk Enterprise, alongside a Kali Linux attacker machine used for adversary emulation activities.
+
+## Technologies Used
+
+* VirtualBox
+* Windows 10
+* Kali Linux
+* Splunk Enterprise
+* Sysmon
+* Metasploit Framework
+* MSFVenom
+* MITRE ATT&CK Framework
+
+## Lab Architecture
+
+[Architecture diagram placeholder]
+
+## Objectives
+
+* Build an isolated enterprise-style SOC environment.
+* Collect detailed endpoint telemetry using Sysmon.
+* Ingest and analyse logs within Splunk.
+* Simulate attacker behaviour using Metasploit and MSFVenom.
+* Investigate attack artefacts generated during compromise simulation.
+* Map observed activity to MITRE ATT&CK techniques.
+
+## Attack Scenario
+
+A Meterpreter reverse shell payload was generated using MSFVenom and executed on the Windows 10 endpoint from the Kali Linux attack host.
+
+The attack generated telemetry across process creation, command execution and network connection events, which were subsequently analysed using Splunk and Sysmon logs.
+
+## Key Investigation Areas
+
+* Process creation analysis using Sysmon Event ID 1.
+* Network connection analysis using Sysmon Event ID 3.
+* Parent-child process relationship reconstruction.
+* Reverse shell communication analysis.
+* MITRE ATT&CK technique mapping.
+
+## Skills Demonstrated
+
+* Security Operations
+* Incident Investigation
+* Threat Hunting
+* Endpoint Telemetry Analysis
+* SIEM Analysis
+* Adversary Emulation
+* Windows Event Analysis
+* MITRE ATT&CK Mapping
+
+## Future Enhancements
+
+* Integrate Sigma detection rules.
+* Add Atomic Red Team simulations.
+* Create custom Splunk detections.
+* Expand attack scenarios to include credential access and persistence techniques.
+* Implement additional Sysmon telemetry sources.
