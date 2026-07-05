@@ -115,7 +115,8 @@ Features:
 
 ---
 
-<img width="740" height="930" alt="AD Project" src="https://github.com/user-attachments/assets/b690ea43-1a8b-43c2-a252-429c92a498b5" />
+<img width="713" height="1062" alt="AD Project" src="https://github.com/user-attachments/assets/72e37d55-2856-451a-bb3a-c00aa322824a" />
+
 
 
 > "Understand the attacker. Improve the defender."
