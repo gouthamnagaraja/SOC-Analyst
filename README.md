@@ -4,6 +4,11 @@ Cybersecurity professional with experience in Security Operations, Incident Inve
 
 I enjoy understanding how attacks work, building environments to simulate them, and improving my ability to detect and investigate malicious activity. My goal is to continuously develop as a security practitioner and contribute to building stronger defensive capabilities.
 
+
+## 🛡️ Completed Lab Certificates
+
+You can view the full verified credentials inside the [Lab-Certificates Folder](./Lab-Certificates).
+
 ---
 
 ## 🔭 Current Areas of Focus
