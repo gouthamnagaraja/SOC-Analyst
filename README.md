@@ -115,7 +115,7 @@ Features:
 
 ---
 
-<img width="713" height="1062" alt="AD Project" src="https://github.com/user-attachments/assets/72e37d55-2856-451a-bb3a-c00aa322824a" />
+<img width="713" height="1062" alt="AD Project" src="https://github.com/user-attachments/assets/a9e45464-910d-4598-92c9-b8f8143acd42" />
 
 
 
